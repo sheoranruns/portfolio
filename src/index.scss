@@ -153,3 +153,51 @@ p, a, h1, h2, h3, h4, h5, label, button {
     }
   }
 }
+
+
+
+
+.pill-btn {
+  margin-top: 30px;
+
+  /* 🔥 Size like H2 */
+  font-size: 22px;
+  font-weight: 600;
+
+  /* 🔥 Big padding */
+  padding: 18px 36px;
+
+  /* 🔥 Pill shape */
+  border-radius: 999px;
+
+  /* 🔥 Remove default styles */
+  border: none;
+  outline: none;
+
+  /* 🔥 Blue like sample */
+  background: #1e63b6;
+  color: white;
+
+  cursor: pointer;
+
+  /* 🔥 Smooth feel */
+  transition: all 0.25s ease;
+
+  /* 🔥 Center nicely */
+  display: inline-block;
+
+  /* 🔥 Soft shadow */
+  box-shadow: 0 6px 18px rgba(30, 99, 182, 0.3);
+}
+
+/* Hover like modern UI */
+.pill-btn:hover {
+  background: #1b5aa5;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(30, 99, 182, 0.4);
+}
+
+/* Click effect */
+.pill-btn:active {
+  transform: scale(0.96);
+}
