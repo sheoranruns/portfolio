@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+        <a href="https://github.com/sheoranruns" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/priyanshu-sheoran/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
       <p>A portfolio built by <a href="https://github.com/sheoranruns/portfolio" target="_blank" rel="noreferrer">Priyanshu Sheoran</a> with 💜</p>
